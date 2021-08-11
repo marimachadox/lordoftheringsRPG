@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E4F2E7;
+    height: 100vh;
+}
+
+header{
+    text-align: center;
+    background-color: #C9D8D1;
+    margin-bottom: 30px;
+}
+h2 { font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.video{
+    text-align: center;
+}
+.personagens {
+    background-color: #E4F2E7;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.personagens li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 600px;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+}
+.personagemTexto{
+    
+}

@@ -1,0 +1,25 @@
+*{margin: 0;
+  padding:0;
+}
+body{
+    background-image: url(../imagem/bgbodyimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    text-align: center;
+    background-color: #C9D8D1;
+    margin-bottom: 30px;
+}
+.texto{
+    background-color: unset;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}

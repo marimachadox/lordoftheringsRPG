@@ -34,3 +34,16 @@ h2{
     font-family: 'Tangerine', cursive;
     font-size: 40px;
 }
+button{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    background: #C9D8D1;
+    border: none;
+}
+button:hover{
+    text-transform: none;
+    font-size: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}

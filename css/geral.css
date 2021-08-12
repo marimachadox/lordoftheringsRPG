@@ -1,5 +1,6 @@
 *{margin: 0;
   padding:0;
+  box-sizing: border-box;
 }
 body{
     background-image: url(../imagem/bgbodyimage.jpg);
@@ -11,15 +12,25 @@ header{
     background-color: #C9D8D1;
     margin-bottom: 30px;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .texto{
-    background-color: unset;
-    display: inline-block;
+    
+    background-color: #CBC3AE;
+    opacity: 0.8;
+    color: black;
     text-align: center;
-    width: 30%;
-    vertical-align: top;
+    width: 50%;
     margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
+    padding: 50px 50px;
     border: 2px solid #000000;
     border-radius: 10px;
+}
+h2{
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
 }

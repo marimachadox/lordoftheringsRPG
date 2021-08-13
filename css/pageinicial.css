@@ -69,3 +69,7 @@ button:hover{
     border: 2px solid white;
     cursor: pointer;
 }
+footer{
+    text-align: center;
+    background-color: #C9D8D1;
+}

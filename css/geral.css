@@ -2,13 +2,19 @@
   padding:0;
   box-sizing: border-box;
 }
+body{
+    background-image: url(../imagem/bgbodyimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+header{
+    background-color: #D2CBB9;
+    margin-bottom: 30px;
+}
 .lotr{
     height: 60px;
     height: 60px;
-}
-.logo{
-    display:flex;
-    flex-direction: column;
 }
 nav{
     background-color: #D2CBB9;
@@ -34,12 +40,6 @@ a:hover{
 nav, ul{
     display:flex;
     flex-direction: row;
-}
-
-body{
-    background-image: url(../imagem/bgbodyimage.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 main{
     display: flex;

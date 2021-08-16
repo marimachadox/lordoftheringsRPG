@@ -13,6 +13,34 @@ header{
     background-color: #C9D8D1;
     margin-bottom: 30px;
 }
+.lotr{
+    height: 60px;
+    height: 60px;
+}
+nav{
+    padding: 0 30px;
+    justify-content: space-between;  
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li {
+    padding: 0 30px
+}
+a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: #daa520;
+    text-decoration: underline;
+}
+nav, ul{
+    display:flex;
+    flex-direction: row;
+}
 h2 { font-family: 'Tangerine', cursive;
     font-size: 40px;
     font-weight: bold;

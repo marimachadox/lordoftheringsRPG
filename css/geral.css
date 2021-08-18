@@ -6,7 +6,7 @@ body{
     background-image: url(../imagem/bgbodyimage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    /* height: 100vh; */
 }
 header{
     background-color: #D2CBB9;
@@ -46,6 +46,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 .texto{
     

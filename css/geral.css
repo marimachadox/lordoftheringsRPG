@@ -17,6 +17,8 @@ header{
     height: 60px;
 }
 nav{
+    display: flex ;
+    align-items: center;
     background-color: #D2CBB9;
     padding: 0 30px;
     justify-content: space-between;  
@@ -63,6 +65,19 @@ main{
 h2{
     font-family: 'Tangerine', cursive;
     font-size: 40px;
+}
+button{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    background: #9c988b;
+    border: 2px solid #8C5245;
+}
+button:hover{
+    text-transform: none;
+    font-size: 20px;
+    border: 2px solid #8C5245;
+    cursor: pointer;
 }
 footer{
     background-color:  #D2CBB9;

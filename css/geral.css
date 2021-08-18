@@ -84,3 +84,26 @@ footer{
         text-align: center;
         padding: 40px 0;
     }
+    @media (max-width: 700px) {
+
+    .logo{
+        display:none;
+        
+    }
+    nav, ul{
+        display:flex;
+        flex-direction: column;
+    }
+    .texto{
+    display: flex;
+    flex-wrap: Wrap;
+    background-color: #CBC3AE;
+    opacity: 0.8;
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin: 0 1.5%;
+    padding: 30px;
+    border: none;
+    }
+}

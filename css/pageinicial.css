@@ -46,10 +46,13 @@ nav, ul{
 h2 { font-family: 'Tangerine', cursive;
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
 }
 
 .video{
     text-align: center;
+    width:100%;
+    height: 100%;
 }
 .personagens {
     background-color: #E4F2E7;
@@ -102,4 +105,27 @@ button:hover{
 footer{
     text-align: center;
     background-color: #C9D8D1;
+}
+@media (max-width: 700px)
+{ 
+    body{
+        display:flex;
+        flex-direction: column;
+    }
+    .logo{
+        display:none;
+        
+    }
+    .video {
+        width: 100%;
+        height: auto;
+    }
+    nav, ul{
+        display:flex;
+        flex-direction: column;
+    }
+    .personagens{
+        display: flex;
+        flex-wrap: Wrap;
+    }
 }

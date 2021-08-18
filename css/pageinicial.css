@@ -49,9 +49,19 @@ h2 { font-family: 'Tangerine', cursive;
     text-align: center;
 }
 
-.video{
-    text-align: center;
-    width:100%;
+figure { width: 90%; min-width: 17.5em; margin:0 auto;}
+.boxVideo {
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 25px;
+    height: 0;
+    margin:0 auto;
+}
+.boxVideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
 }
 .personagens {
@@ -127,5 +137,8 @@ footer{
     .personagens{
         display: flex;
         flex-wrap: Wrap;
+    }
+    .personagens li{
+        border: none;
     }
 }
